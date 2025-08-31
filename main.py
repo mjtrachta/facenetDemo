@@ -8,7 +8,6 @@ FaceNet + MTCNN + (opcional) Anti-spoof InsightFace
 - Microtexturas (FFT + HighFreq + LBP, sólo en piel, con tolerancia a blur)
 - HTTP (POST /reconocer), WebSocket (/ws/reconocer), Webcam local
 """
-
 import cv2
 import torch
 import numpy as np
